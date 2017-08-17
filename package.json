@@ -1,0 +1,23 @@
+{
+  "name": "dvp-reportqueryfilters",
+  "version": "1.0.0",
+  "description": "Save User Wise Report Query Filters",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajinda",
+  "license": "ISC",
+  "dependencies": {
+    "collections": "^3.0.0",
+    "config": "^1.19.0",
+    "cors": "^2.7.1",
+    "dvp-common": "^0.8.4",
+    "dvp-mongomodels": "^4.8.31",
+    "ioredis": "^3.1.1",
+    "node": "^0.0.0",
+    "nodejs": "^0.0.0",
+    "restify": "^4.0.3",
+    "restify-jwt": "^0.4.0"
+  }
+}
