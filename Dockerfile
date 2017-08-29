@@ -7,7 +7,8 @@
 
 #EXPOSE 8846
 FROM node:5.10.0
-RUN git clone https://github.com/DuoSoftware/DVP-ReportQueryFilters.git /usr/local/src/reportqueryfilters
+ARG VERSION_TAG
+RUN git clone -b $VERSION_TAG https://github.com/DuoSoftware/DVP-ReportQueryFilters.git /usr/local/src/reportqueryfilters
 RUN cd /usr/local/src/reportqueryfilters;
 WORKDIR /usr/local/src/reportqueryfilters
 RUN npm install
