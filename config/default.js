@@ -12,7 +12,7 @@ module.exports = {
         }
     },
     "Mongo": {
-        "ip": "104.236.231.11",
+        "ip": "104.236.231.111",
         "port": "27017",
         "dbname": "dvpdb",
         "password": "DuoS123",
@@ -21,7 +21,7 @@ module.exports = {
     },
     "Host": {
         "domain": "0.0.0.0",
-        "port": 8795,
+        "port": 8846,
         "version": "1.0.0.0",
         "hostpath": "./config",
         "logfilepath": ""
