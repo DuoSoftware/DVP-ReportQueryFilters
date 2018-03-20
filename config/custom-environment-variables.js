@@ -1,5 +1,5 @@
 module.exports = {
-    Mongo:
+    "Mongo":
     {
         "ip":"SYS_MONGO_HOST",
         "port":"SYS_MONGO_PORT",
