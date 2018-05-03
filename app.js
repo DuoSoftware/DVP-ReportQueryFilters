@@ -11,6 +11,7 @@ var version = config.Host.version;
 var jwt = require('restify-jwt');
 var secret = require('dvp-common/Authentication/Secret.js');
 var authorization = require('dvp-common/Authentication/Authorization.js');
+var messageFormatter = require('dvp-common/CommonMessageGenerator/ClientMessageJsonFormatter.js');
 // ---------------- Security -------------------------- \\
 
 //-------------------------  Restify Server ------------------------- \\
