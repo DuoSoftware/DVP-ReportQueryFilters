@@ -4,7 +4,7 @@ module.exports = {
         "port": 6389,
         "user": "",
         "password": "",
-        "mode": "sentinel",//instance, cluster, sentinel
+        "mode": "instance",//instance, cluster, sentinel
         "sentinels": {
             "hosts": "",
             "port": 16389,
