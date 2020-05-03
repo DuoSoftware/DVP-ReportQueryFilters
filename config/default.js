@@ -17,7 +17,7 @@ module.exports = {
         "dbname": "",
         "password": "",
         "user": "",
-        "replicaset": ""
+        "type": "mongodb+srv",
     },
     "Host": {
         "domain": "0.0.0.0",

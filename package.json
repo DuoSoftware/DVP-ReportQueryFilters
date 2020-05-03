@@ -13,7 +13,7 @@
     "config": "^1.19.0",
     "cors": "^2.7.1",
     "dvp-common": "1.1.0",
-    "dvp-mongomodels": "^4.8.31",
+    "dvp-mongomodels": "^6.1.0",
     "ioredis": "^3.1.1",
     "restify": "^4.0.3",
     "restify-jwt": "^0.4.0"
