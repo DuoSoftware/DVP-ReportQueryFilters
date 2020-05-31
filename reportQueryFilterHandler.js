@@ -4,7 +4,7 @@
 
 
 var ReportQueryFilters = require('dvp-mongomodels/model/ReportQueryFilters');
-var messageFormatter = require('dvp-common/CommonMessageGenerator/ClientMessageJsonFormatter.js');
+var messageFormatter = require('dvp-common-lite/CommonMessageGenerator/ClientMessageJsonFormatter.js');
 
 module.exports.AddReportFilter  = function (req, res) {
 

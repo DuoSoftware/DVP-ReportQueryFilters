@@ -9,9 +9,9 @@ var port = config.Host.port || 3000;
 var version = config.Host.version;
 // ---------------- Security -------------------------- \\
 var jwt = require('restify-jwt');
-var secret = require('dvp-common/Authentication/Secret.js');
-var authorization = require('dvp-common/Authentication/Authorization.js');
-var messageFormatter = require('dvp-common/CommonMessageGenerator/ClientMessageJsonFormatter.js');
+var secret = require('dvp-common-lite/Authentication/Secret.js');
+var authorization = require('dvp-common-lite/Authentication/Authorization.js');
+var messageFormatter = require('dvp-common-lite/CommonMessageGenerator/ClientMessageJsonFormatter.js');
 // ---------------- Security -------------------------- \\
 
 //-------------------------  Restify Server ------------------------- \\
@@ -38,7 +38,7 @@ RestServer.listen(port, function () {
 
 //------------------------- End Restify Server ------------------------- \\
 
-var logger = require('dvp-common/LogHandler/CommonLogHandler.js').logger;
+var logger = require('dvp-common-lite/LogHandler/CommonLogHandler.js').logger;
 var reportQueryFilterHandler = require('./reportQueryFilterHandler');
 var mongomodels = require("dvp-mongomodels");
 
