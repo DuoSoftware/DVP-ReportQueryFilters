@@ -13,7 +13,7 @@ module.exports = {
     },
     "Mongo": {
         "ip": "",
-        "port": "27017",
+        "port": "",
         "dbname": "",
         "password": "",
         "user": "",
